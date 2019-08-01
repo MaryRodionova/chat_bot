@@ -1,0 +1,331 @@
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 73, in newmoon
+    day_st=moon_date.strftime("%Y/%m/%d")
+AttributeError: 'str' object has no attribute 'strftime'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 73, in newmoon
+    day_st=moon_date.strftime("%Y/%m/%d")
+AttributeError: 'str' object has no attribute 'strftime'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 73, in newmoon
+    day_st=moon_date.strftime("%Y/%m/%d")
+AttributeError: 'str' object has no attribute 'strftime'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 73, in newmoon
+    day_st=moon_date.strftime("%Y/%m/%d")
+AttributeError: 'str' object has no attribute 'strftime'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 73, in newmoon
+    day_st=moon_date.strftime("%Y/%m/%d")
+AttributeError: 'str' object has no attribute 'strftime'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 73, in newmoon
+    day_st=moon_date.strftime("%Y-%m-%d")
+AttributeError: 'str' object has no attribute 'strftime'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 72, in newmoon
+    date_st = datetime.datetime(moon_date)
+TypeError: an integer is required (got type str)
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 72, in newmoon
+    date_st = datetime.datetime(moon_date)
+TypeError: an integer is required (got type str)
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 72, in newmoon
+    date_st = datetime.datetime(moon_date)
+TypeError: an integer is required (got type str)
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 72, in newmoon
+    date_st = datetime.date(moon_date)
+TypeError: an integer is required (got type str)
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 72, in newmoon
+    date_st = datetime.date(moon_date)
+TypeError: an integer is required (got type str)
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 72, in newmoon
+    date_st = datetime.date(moon_date)
+TypeError: an integer is required (got type str)
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 72, in newmoon
+    date_st=datetime.date(moon_date)
+TypeError: an integer is required (got type str)
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 71, in newmoon
+    date_m=datetime.date(moon_date)
+TypeError: an integer is required (got type str)
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 72, in newmoon
+    day_st=moon_date.strftime("%Y/%m/%d")
+AttributeError: 'str' object has no attribute 'strftime'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 72, in newmoon
+    day_st=moon_date.strftime("%Y/%m/%d")
+AttributeError: 'str' object has no attribute 'strftime'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 69, in newmoon
+    moon_date=moon_split[1]
+IndexError: list index out of range
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 71, in newmoon
+    today = datetime.date(moon_date)
+TypeError: an integer is required (got type str)
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 71, in newmoon
+    today = datetime.date(moon_date)
+TypeError: an integer is required (got type str)
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 72, in newmoon
+    today_st=moon_date.strftime("%Y/%m/%d")
+AttributeError: 'str' object has no attribute 'strftime'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 72, in newmoon
+    today_st=moon_date.strftime("%Y/%m/%d")
+AttributeError: 'str' object has no attribute 'strftime'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 72, in newmoon
+    today_st=datetime.datetime.strptime(moon_date,"%Y/%m/%d")
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2019-04-04' does not match format '%Y/%m/%d'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 71, in newmoon
+    today_st=datetime.datetime.strptime(moon_date,"%Y/%m/%d")
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2019-04-04' does not match format '%Y/%m/%d'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 70, in newmoon
+    today_st=datetime.datetime.strptime(moon_date,"%Y/%m/%d")
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2019-04-04' does not match format '%Y/%m/%d'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 70, in newmoon
+    today_st=datetime.strptime(moon_date,"%Y/%m/%d")
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2019-04-04' does not match format '%Y/%m/%d'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 70, in newmoon
+    today_st=datetime.strptime(moon_date,"%Y/%m/%d")
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2019-04-04' does not match format '%Y/%m/%d'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 71, in newmoon
+    moon_st=datetime.strptime(moon_date,"%Y/%m/%d")
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2019-04-04' does not match format '%Y/%m/%d'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:\projects\bot\bot.py", line 71, in newmoon
+    moon_st=datetime.strptime(moon_date,"%Y/%m/%d")
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '2019-04-04' does not match format '%Y/%m/%d'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
