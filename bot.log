@@ -329,3 +329,117 @@ telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 telegram.ext.updater - WARNING - Exiting immediately!
 telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот запускается
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 72, in send_cat_picture
+    cat_pic = choice(cat_list) #случайное имя файла
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\random.py", line 260, in choice
+    raise IndexError('Cannot choose from an empty sequence') from None
+IndexError: Cannot choose from an empty sequence
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 60, in newmoon
+    user_text_moon= update.message.texts
+AttributeError: 'Message' object has no attribute 'texts'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 60, in newmoon
+    user_text_moon= update.message.texts
+AttributeError: 'Message' object has no attribute 'texts'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 60, in newmoon
+    user_text_moon= update.message.texts
+AttributeError: 'Message' object has no attribute 'texts'
+root - INFO - Бот запускается
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 72, in send_cat_picture
+    cat_pic = choice(cat_list) #случайное имя файла
+  File "C:\Users\maria.rodionova\AppData\Local\Programs\Python\Python36\lib\random.py", line 260, in choice
+    raise IndexError('Cannot choose from an empty sequence') from None
+IndexError: Cannot choose from an empty sequence
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот запускается
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+root - INFO - Бот запускается
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот запускается
+root - INFO - User: MaryRodionova, Chat id: 383129274, Message: Fggh
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот запускается
+root - INFO - Бот запускается
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: talk_to_me() got an unexpected keyword argument 'user_data'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот запускается
+root - INFO - User: MaryRodionova, Chat id: 383129274, Message: Ghjj
+root - INFO - User: MaryRodionova, Chat id: 383129274, Message: Ghj
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+root - INFO - Бот запускается
+root - INFO - User: MaryRodionova, Chat id: 383129274, Message: Fjjn
+root - INFO - User: MaryRodionova, Chat id: 383129274, Message: Ghhj
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот запускается
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+root - INFO - Бот запускается
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот запускается
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+root - INFO - Бот запускается
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+root - INFO - Бот запускается
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 111, in get_location
+    update.message.reply_text('Спасибо {}'.format(get_avatar(user_data)))
+NameError: name 'get_avatar' is not defined
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "c:\projects\bot\env\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 107, in get_contact
+    update.message.reply_text('Спасибо {}'.format(get_avatar(user_data)))
+NameError: name 'get_avatar' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот запускается
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
