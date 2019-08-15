@@ -6,10 +6,15 @@ from datetime import datetime
 
 from utils import get_keyboard,get_user_emo
 
+from db import db, get_or_create_user
+
+
 import settings
 import ephem
 
 def greet_user(bot, update, user_data):
+    user = get_or_create_user(db, update.effective_user, update.message)
+    print(user)
     emo = get_user_emo(user_data)
     user_data['emo'] = emo
     text = 'Привет {}'.format(emo)
